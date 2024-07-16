@@ -10,8 +10,8 @@ def speakText(command):
     engine.say(command)
     engine.runAndWait()
 while(1):
-    model_path = "C:\\Users\\aishw\\OneDrive\\Desktop\\python\\Sign-Language-detection\\keras_model.h5"
-    label_path = "C:\\Users\\aishw\\OneDrive\\Desktop\\python\\Sign-Language-detection\\labels.txt"
+    model_path = "\\Sign-Language-detection\\keras_model.h5"
+    label_path = "\\Sign-Language-detection\\labels.txt"
 
     print("Loading classifier...")
     classifier = Classifier(model_path, label_path)
