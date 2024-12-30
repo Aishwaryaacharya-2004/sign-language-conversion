@@ -6,7 +6,7 @@ import time
 import os
 
 
-folder = "C:/Users/aishw/OneDrive/Desktop/python/Sign-Language-detection/Data/No"
+folder = "link"
 if not os.path.exists(folder):
     os.makedirs(folder)
 
